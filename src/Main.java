@@ -12,7 +12,7 @@ public class Main
         //The Variable is converting to Integer
         int numConvert = Integer.parseInt(numDigitado);
         //Condition to know, if age to voting or not
-        if(numConvert == 16){
+        if(numConvert >= 16){
             System.out.println("Okay! Than you can voting!");
         }else{
             System.out.println("Sorry! You can aren't voting");
